@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Conneq</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="profile.css">
+<link rel="apple-touch-icon" sizes="512x512" href="/android-chrome-512x512">
+<link rel="apple-touch-icon" sizes="192x192" href="/android-chrome-192x192">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <div class="container" id="profile-page">
+        <header class="text-center my-4">
+            <img src="LOGO.PNG" alt="Conneq Logo" height="50">
+            <h1>Profile</h1>
+        </header>
+
+        <div class="profile-header text-center">
+            <img src="LOGO.PNG" alt="Profile Picture" class="profile-picture">
+            <h2>User Name</h2>
+            <p>@username</p>
+            <button class="btn btn-primary" onclick="editProfile()">Edit Profile</button>
+        </div>
+
+        <div class="profile-content">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="profile-stats">
+                        <h3>1</h3>
+                        <p>Posts</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="profile-stats">
+                        <h3>200M</h3>
+                        <p>Followers</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="profile-stats">
+                        <h3>1</h3>
+                        <p>Following</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-posts mt-4">
+                <h3>Posts</h3>
+                <div class="post">
+                    <img src="LOGO.PNG" alt="Post Thumbnail" class="post-thumbnail">
+                    <p>Post caption goes here...</p>
+                </div>
+                <!-- Add more posts as needed -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+    <script>
+        function editProfile() {
+            alert('Edit profile functionality to be implemented');
+        }
+    </script>
+</body>
+</html>
